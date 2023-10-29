@@ -14,3 +14,13 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.principal{
+    background-image: url(img/Background.png);                                      /* novidade: inserido a imagem fia CSS, a diferença é que se essa imagem de fundo não coarregar no CSS não impactara a vida do usuario, ou seja não é uma imagem relevante, por isso foi carregada pelo proprioi CSS, definindo a imagem de fundo */
+    background-repeat: no-repeat;                                                   /* definindo para imagem de fundo não repetir, se esse parametro a imagem de fundo se repetira ao long da pagina */
+    background-size: contain;                                                       /* ajustando espaçamento da esquerda */
+}
+
+.container{
+    height: 100vh;                                                                  /* definindo a altura pela atura do dispositivo por isso vh ==> viewport + height */
+}
