@@ -86,3 +86,12 @@ body{
 .descricao__texto{
     color: var(--cinza-secundario);
 }
+
+.secunrario__botao{
+    display: inline-block; /* com essa configuração o botão dessa classe utilizara somente o espaço suficiente para o texto, ou seja esse display inlinebloc pega as melhores parte do inline e do bloc*/
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 2em;
+}
