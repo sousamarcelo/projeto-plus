@@ -24,6 +24,8 @@ body{
     background-image: url(img/Background.png);                                      /* novidade: inserido a imagem fia CSS, a diferença é que se essa imagem de fundo não coarregar no CSS não impactara a vida do usuario, ou seja não é uma imagem relevante, por isso foi carregada pelo proprioi CSS, definindo a imagem de fundo */
     background-repeat: no-repeat;                                                   /* definindo para imagem de fundo não repetir, se esse parametro a imagem de fundo se repetira ao long da pagina */
     background-size: contain;                                                       /* ajustando espaçamento da esquerda */
+    align-items: center;                                                            /* centralizando item dentro da div, como a div está definida como coluna será centralizando no centro da coluna */
+    text-align: center;                                                             /*  o text-aline alinha todos os elementos dentro do bloco, mesmo que sejam imagens*/
 }
 
 .container{
