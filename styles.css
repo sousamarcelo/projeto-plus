@@ -44,7 +44,7 @@ body{
     margin-bottom: 1em;                                                             /* ajustando espaçamento entre os botões, botton é mais especifico que somente magin */
 }
 
-.botao_secundario{
+.botao__secundario{
     background-color: transparent;                                                   /* definindo como fundo transparante */       
     border: 2px solid var(--branco-principal);    
 }
@@ -65,4 +65,24 @@ body{
 
 .container__caixa{
     margin: 06em;                                                                       /* ajustando as laterais da div */
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 10em;
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;                                                               /* ajustando somente a margem de baixo */
+}
+
+.descricao__texto{
+    color: var(--cinza-secundario);
 }
