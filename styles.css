@@ -3,11 +3,16 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';                                                     /* esse cor vem dos imports de cores do google que foram inserido no HTML */
+
 }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 *{
@@ -33,9 +38,20 @@ body{
     padding: 1em;                                                                   /* definindo tamanho da fonte */
     color: var(--branco-principal);
     display: block;                                                                 /* definindo o posicionamento do botão */
+    text-decoration: none;
 }
 
 .botao_secundario{
     background-color: transparent;                                                   /* definindo como fundo transparante */       
     border: 2px solid var(--branco-principal);    
+}
+
+.container__aviso{
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
 }
