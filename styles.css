@@ -24,3 +24,11 @@ body{
 .container{
     height: 100vh;                                                                  /* definindo a altura pela atura do dispositivo por isso vh ==> viewport + height */
 }
+
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;                                                                   /* definindo tamanho da fonte */
+    color: var(--branco-principal);
+    display: block;                                                                 /* definindo o posicionamento do botão */
+}
