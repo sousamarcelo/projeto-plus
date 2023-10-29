@@ -23,6 +23,8 @@ body{
 
 .container{
     height: 100vh;                                                                  /* definindo a altura pela atura do dispositivo por isso vh ==> viewport + height */
+    display: grid;                                                                  /* distribui os elementos na section */
+    grid-template-columns: 50% 50%;                                                 /* separa o grid criado em colunas com 50% do espaço */    
 }
 
 .container__botao{
@@ -31,4 +33,9 @@ body{
     padding: 1em;                                                                   /* definindo tamanho da fonte */
     color: var(--branco-principal);
     display: block;                                                                 /* definindo o posicionamento do botão */
+}
+
+.botao_secundario{
+    background-color: transparent;                                                   /* definindo como fundo transparante */       
+    border: 2px solid var(--branco-principal);    
 }
