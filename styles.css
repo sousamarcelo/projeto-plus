@@ -4,7 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';                                                     /* esse cor vem dos imports de cores do google que foram inserido no HTML */
-
+    --botao-azul-efeito: #3c92fa;
 }
 
 body{
@@ -146,4 +146,17 @@ body{
     font-family: var(--fonte-principal);
     font-weight: 400;
     margin: 2em 2em;
+}
+
+.list__link a:hover {
+    color: var(--botao-azul);
+}
+
+.list__link a:active {                                                                      /* evento ocorre ao clicar no link */
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
